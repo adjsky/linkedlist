@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.17)
+project(linked_list_tests)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED TRUE)
+add_executable(linked_list_tests main.cpp linked_list_iterator_tests.cpp linked_list_tests.cpp)
